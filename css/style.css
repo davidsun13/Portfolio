@@ -353,3 +353,13 @@ section{
     border-radius: .6rem;
     border:.2rem solid var(--main-color);
 }
+.mission {
+      width: 200px;
+      height: 200px;
+      background-color: #eaeaea;
+      border: 1px solid #ccc;
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+      display: inline-block;
+    }

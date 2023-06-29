@@ -363,3 +363,6 @@ section{
       text-align: center;
       display: inline-block;
     }
+.mission p{
+    font-size:1.6rem;
+}

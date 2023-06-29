@@ -353,6 +353,9 @@ section{
     border-radius: .6rem;
     border:.2rem solid var(--main-color);
 }
+.mission h2{
+    font-size:2rem;
+}
 .mission p{
     font-size:1.6rem;
 }

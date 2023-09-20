@@ -80,7 +80,7 @@ section{
     padding: 0 7%;
 }
 .home-content{
-    max-width: 70rem;
+    max-width: 75rem;
 }
 .home-content h1{
     font-size: 5.6rem;
@@ -90,7 +90,6 @@ section{
 
 .home-content .text-animate{
     position: relative;
-    width:32.8rem
 }
 
 .home-content .text-animate h3{
@@ -118,7 +117,7 @@ section{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 15rem;
+    width: 16rem;
     height: 100%;
     background: var(--main-color);
     border: .2rem solid var(--main-color);
@@ -281,6 +280,10 @@ section{
 .skills-column:nth-child(1) .skills-content .progress:nth-child(9) .bar span{
     width:25%
 }
+.projets h3{
+    font-size:2rem;
+    text-align: center;
+}
 .portfolio{
     background: var(--second-bg-color);
 }
@@ -323,6 +326,9 @@ section{
     font-size: 1.5rem;
     margin: .1rem 0 1;
 }
+.portfolio-layer i{
+    font-size: 2rem;
+}
 .contact{
     min-height: auto;
     padding-bottom: 7rem;
@@ -353,9 +359,110 @@ section{
     border-radius: .6rem;
     border:.2rem solid var(--main-color);
 }
+
+.veille-content img{
+    height: 300px;
+}
+.veille a{
+    align-items: center;
+    font-size: 2rem;
+}   
+
+.stage{
+    background: var(--second-bg-color);
+}
+.stage-container{
+    margin-bottom: 3rem;
+}
+
+.stage-container .stage-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+}
+.stage-box img{
+    width: 100%;
+}
+.stage-box .stage-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(0,0,0,.1),var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 4rem;
+}
+.stage-layer h4{
+    font-size: 3rem;
+}
+.stage-layer p{
+    font-size: 1.5rem;
+    margin: .1rem 0 1;
+}
+.stage-layer i{
+    font-size: 2rem;
+}
+
 .mission h2{
-    font-size:2rem;
+    font-size: 2rem;
 }
 .mission p{
-    font-size:1.6rem;
+    font-size: 1.6rem;
+}
+
+.presentation p{
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.btn-box1{
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    height: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 25rem;
+}
+
+.btn-box1 .btn1{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    height: 100%;
+    background: var(--main-color);
+    border: .2rem solid var(--main-color);
+    border-radius: .8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: var(--bg-color);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.presentation-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.presentation-container .presentation-box{
+    flex: 1 1 30rem;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid;
+}
+
+.presentation-box h2{
+    font-size: 3rem;
 }

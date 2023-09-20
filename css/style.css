@@ -82,6 +82,10 @@ section{
 .home-content{
     max-width: 75rem;
 }
+.home-content i{
+    font-size: 3rem;
+    margin-left: 2rem;
+}
 .home-content h1{
     font-size: 5.6rem;
     font-weight:700;
@@ -359,7 +363,10 @@ section{
     border-radius: .6rem;
     border:.2rem solid var(--main-color);
 }
-
+.text p{
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+}
 .veille-content img{
     height: 300px;
 }

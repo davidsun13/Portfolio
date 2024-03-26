@@ -32,7 +32,7 @@ body{
     left:0;
     width: 100%;
     padding: 2rem 5%;
-    background: #081b29;
+    background: var(--bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,6 +44,11 @@ body{
 }
 .heading{
     font-size: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.heading1{
+    font-size: 3rem;
     margin-bottom: 3rem;
     text-align: center;
 }
